@@ -1,0 +1,23 @@
+/* Define a cor dos textos */
+.custom-link, .custom-button {
+    color: #EBE3D5 !important;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  /* Efeito ao passar o mouse */
+  .custom-link:hover, .custom-button:hover {
+    color: #FFFFFF !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  
+  .custom-button {
+    border-color: #EBE3D5;
+    transition: color 0.3s ease, border-color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    border-color: #FFFFFF;
+  }
+
+  
+  
